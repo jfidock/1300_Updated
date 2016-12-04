@@ -1,0 +1,157 @@
+/*
+INFO/CS 1300
+Fall 2016
+Qi Xiu
+Final Project Milestone 2
+
+ <!-- Media Query -->
+*/
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    
+    #about > h1, p {
+        font-size: 80%; 
+    }
+/*
+    ul {
+        display: none ;
+    }
+*/
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+    #top {
+        display: none;
+    }
+    
+    #container {
+        width: 94%;
+    }
+    .overlay {
+        text-shadow: 2px 2px #000000;
+        color: #B5E9F8;
+        text-align: center;
+        font-size: 2em;
+        padding: 0.5em 1em 1em 1em;
+    }
+    
+    .container {
+	padding: 0em 0.5em 1em 12em;
+	font-size: 85%;
+	background-color: #B5E9F8;
+    }
+    
+    .about, .events, .information, .entertainment {
+	background-color: #ffffff;
+	padding: 1em 2em 1em 3em;
+	font-size: 85%;
+    }
+    
+    #navBar {
+        width: 100%;
+        text-align: center;
+        padding: 1em 1em 1em 1em;
+        background-color: #e6e6e6;
+        font-size: 1.1em;
+        margin: 0em 0em 0em 0em; 
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 25%;
+        background-color: #f1f1f1;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+    }
+
+    li a {
+        display: block;
+        color: #000;
+        padding: 8px 16px;
+        text-decoration: none;
+    }
+
+    li a.active {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    li a:hover:not(.active) {
+        background-color: #555;
+        color: white;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+/*
+    #top_nav > span:first-child {
+        margin-left: 0em;
+    }
+    
+    #top > img {
+        display: none;
+    }
+    
+    #content > img {
+        display: none;
+    }
+    
+    #top2 {
+        display: block;
+        margin-left: 1.5em;
+    }
+*/
+    #top {
+        display: none;
+    }
+    
+    .container {
+	padding: 0em 0.5em 1em 12em;
+	font-size: 85%;
+	background-color: #B5E9F8;
+    }
+    
+    .about, .events, .information, .entertainment {
+	background-color: #ffffff;
+	padding: 1em 2em 1em 3em;
+	font-size: 85%;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 25%;
+        background-color: #f1f1f1;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+    }
+
+    li a {
+        display: block;
+        color: #000;
+        padding: 8px 16px;
+        text-decoration: none;
+    }
+
+    li a.active {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    li a:hover:not(.active) {
+        background-color: #555;
+        color: white;
+    }
+    
+    html, body{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+}
