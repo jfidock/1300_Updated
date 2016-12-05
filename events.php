@@ -25,8 +25,10 @@
       <div class="events">
 
         <h1>Events and Vendors</h1>
-        <img src="images/map.jpg" alt="Events Map">
+        <div id="map_info">
+          <p><span class="event_span"><img src="images/map.jpg" alt="Map of Apple Fest"></span></p>
         <!-- Image from: http://www.downtownithaca.com/ithaca-events/Apple%20Harvest%20Festival%20Presented%20by%20Tompkins%20Trust -->
+        </div>
       
       </div>
       <!-- end events div -->

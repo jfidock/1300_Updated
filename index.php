@@ -39,12 +39,10 @@
 
 
       <div id="home_images">
-      <p><span class="picspan"><img src="images/applefest1.jpg" alt="Apple Fest"></span>
-      <!-- Image citation: Andrew Halpner, Flikr, https://www.flickr.com/photos/106103661@N02/sets/72157657274645113/with/22015033122/-->
-      <span class="picspan"><img src="images/applefest2.jpg" alt="Cider Stall"></span></p>
-      <!-- Image citation: Andrew Halpner, Flikr, https://www.flickr.com/photos/106103661@N02/sets/72157657274645113/with/22015033122/-->
-
-      
+        <p><span class="picspan"><img src="images/applefest1.jpg" alt="Apple Fest"></span></p>
+        <!-- Image citation: Andrew Halpner, Flikr, https://www.flickr.com/photos/106103661@N02/sets/72157657274645113/with/22015033122/-->
+        <p><span class="picspan"><img src="images/applefest2.jpg" alt="Cider Stall"></span></p>
+        <!-- Image citation: Andrew Halpner, Flikr, https://www.flickr.com/photos/106103661@N02/sets/72157657274645113/with/22015033122/-->
       </div>
       <!-- end "home_images" -->
 
