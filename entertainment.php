@@ -29,12 +29,14 @@
     </div>
     <!-- end container div -->
     
-    <span class="entertainment_span"><img src="images/family2.jpg" alt="Family 2"></span>
-    <!-- Image citation: Andrew Halpner, Flikr, https://www.flickr.com/photos/106103661@N02/sets/72157657274645113/with/22015033122/-->
-    <span class="entertainment_span"><img src="images/family5.jpg" alt="Family 5"></span>
-    <!-- Image citation: Andrew Halpner, Flikr, https://www.flickr.com/photos/106103661@N02/sets/72157657274645113/with/22015033122/-->
-    <span class="entertainment_span"><img src="images/family6.jpg" alt="Family 6"></span>
-    <!-- Image citation: Andrew Halpner, Flikr, https://www.flickr.com/photos/106103661@N02/sets/72157657274645113/with/22015033122/-->
+    <div id="family_images">
+        <p><span class="entertainment_span"><img src="images/family2.jpg" alt="Family 2"></span></p>
+        <!-- Image citation: Andrew Halpner, Flikr, https://www.flickr.com/photos/106103661@N02/sets/72157657274645113/with/22015033122/-->
+        <p><span class="entertainment_span"><img src="images/family5.jpg" alt="Family 5"></span></p>
+        <!-- Image citation: Andrew Halpner, Flikr, https://www.flickr.com/photos/106103661@N02/sets/72157657274645113/with/22015033122/-->
+        <p><span class="entertainment_span"><img src="images/family6.jpg" alt="Family 6"></span></p>
+        <!-- Image citation: Andrew Halpner, Flikr, https://www.flickr.com/photos/106103661@N02/sets/72157657274645113/with/22015033122/-->
+    </div>
 
     <div class="container">
         <div class="entertainment">
@@ -44,10 +46,13 @@
     </div>
     <!-- end container div -->
       
-    <span class="entertainment_span"><img src="images/family1.jpg" alt="Family 1"></span>
-    <!-- Image citation: Andrew Halpner, Flikr, https://www.flickr.com/photos/106103661@N02/sets/72157657274645113/with/22015033122/-->
-    <span class="entertainment_span"><img src="images/family3.jpg" alt="Family 3"></span>
-    <!-- Image citation: Andrew Halpner, Flikr, https://www.flickr.com/photos/106103661@N02/sets/72157657274645113/with/22015033122/-->
+
+    <div id="animal_images">
+        <p><span class="entertainment_span"><img src="images/family1.jpg" alt="Family 1"></span></p>
+        <!-- Image citation: Andrew Halpner, Flikr, https://www.flickr.com/photos/106103661@N02/sets/72157657274645113/with/22015033122/-->
+        <p><span class="entertainment_span"><img src="images/family3.jpg" alt="Family 3"></span></p>
+        <!-- Image citation: Andrew Halpner, Flikr, https://www.flickr.com/photos/106103661@N02/sets/72157657274645113/with/22015033122/-->
+    </div>
     
     
   </body>

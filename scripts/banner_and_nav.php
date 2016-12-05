@@ -15,10 +15,10 @@ Final Project
 	<!-- End of banner div -->
 
 	<div id="navBar">
-		<span class="navSpan"><a href="#">Home</a></span><!-- <br><br> -->
-		<span class="navSpan"><a href="events.php">Events</a></span><!-- <br><br> -->
-		<span class="navSpan"><a href="entertainment.php">Entertainment</a></span><!-- <br><br> -->
-		<span class="navSpan"><a href="information.php">Information</a></span><!-- <br><br> -->
+		<span class="navSpan"><a href="#">Home</a></span>
+		<span class="navSpan"><a href="events.php">Events</a></span>
+		<span class="navSpan"><a href="entertainment.php">Entertainment</a></span>
+		<span class="navSpan"><a href="information.php">Information</a></span>
 			<!-- times and transportation -->
 			<!-- take map off of ithaca page -->
 
