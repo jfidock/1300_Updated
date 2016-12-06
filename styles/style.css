@@ -32,7 +32,7 @@ html {background-color: #B5E9F8;
 	width: 100%;
 	padding: 1em 1em 1em 1em;
 	font-family: 'Noto Serif', serif;
-	margin: 0em 0em 0em 0em; 
+	margin: 0em 0em 0em 0em;
 	top: 0em;
 	left: 0em;
 }
@@ -51,7 +51,7 @@ html {background-color: #B5E9F8;
 	padding: 1em 1em 1em 1em;
 	background-color: #e6e6e6;
 	font-size: 1.1em;
-	margin: 0em 0em 0em 0em; 
+	margin: 0em 0em 0em 0em;
 }
 
 #navBar a:link {
@@ -196,6 +196,11 @@ html {background-color: #B5E9F8;
 /* end of image styling */
 
 
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
 
 
 
