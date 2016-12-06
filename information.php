@@ -13,6 +13,7 @@
     <!-- <link rel="stylesheet" type="text/css" href="styles/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="styles/site.css"> -->
     <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/MediaQuery.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
   </head>
   <body>  
@@ -22,13 +23,15 @@
   <div id="main_body">
 
     <div class="container">
-      <div class="information">
+        <div class="information">
 
-        <h1>Information</h1>
-        Enter contact information here and and smtp email thing.
+          <div id="map_info">
+            <p><span class="event_span"><img src="images/map.jpg" alt="Map of Apple Fest"></span></p>
+          <!-- Image from: http://www.downtownithaca.com/ithaca-events/Apple%20Harvest%20Festival%20Presented%20by%20Tompkins%20Trust -->
+          </div>
 
-      </div>
-      <!-- end information div -->
+        </div>
+        <!-- end information div -->
     </div>
     <!-- end container div -->
 

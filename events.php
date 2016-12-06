@@ -13,6 +13,7 @@
     <!-- <link rel="stylesheet" type="text/css" href="styles/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="styles/site.css"> -->
     <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/MediaQuery.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
   </head>
   <body>  
@@ -24,11 +25,11 @@
     <div class="container">
       <div class="events">
 
-        <h1>Events and Vendors</h1>
-        <div id="map_info">
+        <h1 class="dates">Main Stage Schedule</h1>
+        <!-- <div id="map_info">
           <p><span class="event_span"><img src="images/map.jpg" alt="Map of Apple Fest"></span></p>
-        <!-- Image from: http://www.downtownithaca.com/ithaca-events/Apple%20Harvest%20Festival%20Presented%20by%20Tompkins%20Trust -->
-        </div>
+        Image from: http://www.downtownithaca.com/ithaca-events/Apple%20Harvest%20Festival%20Presented%20by%20Tompkins%20Trust
+        </div> -->
       
       </div>
       <!-- end events div -->

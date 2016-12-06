@@ -71,6 +71,16 @@ html {background-color: #B5E9F8;
 	text-decoration: underline;
 }
 
+#navBar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#navBar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
 .about, .events, .information, .entertainment {
 	background-color: #ffffff;
 	padding: 2em 4em 2em 4em;
@@ -78,7 +88,7 @@ html {background-color: #B5E9F8;
 }
 
 .container {
-	padding: 10em 10em 1em 10em;
+	padding: 5em 10em 1em 10em;
 	font-size: 120%;
 	background-color: #B5E9F8;
 }

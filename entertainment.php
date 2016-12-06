@@ -13,6 +13,7 @@
     <!-- <link rel="stylesheet" type="text/css" href="styles/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="styles/site.css"> -->
     <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/MediaQuery.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
   </head>
   <body>  
@@ -23,7 +24,7 @@
 
     <div class="container">
         <div class="entertainment">
-            <h1>Games and Rides</h1>
+            <h1 class="dates">Games and Rides</h1>
         </div>
         <!-- end entertainment div -->
     </div>
