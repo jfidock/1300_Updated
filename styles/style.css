@@ -81,9 +81,15 @@ html {background-color: #B5E9F8;
     color: white;
 }
 
-.about, .events, .information, .entertainment {
+.about, .events, .information, .entertainment{
 	background-color: #ffffff;
-	padding: 2em 4em 2em 4em;
+	padding: 2em 4em 0.1em 4em;
+	font-size: 120%;
+}
+
+.entertainment2 {
+	background-color: #ffffff;
+	padding: 0em 4em 0em 4em;
 	font-size: 120%;
 }
 
@@ -166,6 +172,14 @@ html {background-color: #B5E9F8;
 #animal_images p {
 	padding-top: 1em;
 	padding-bottom: 1em;
+}
+
+#games,  {
+	padding: 0.1em 1em 0em 1em;
+}
+
+#animals {
+	padding: 0.1em 1em 0.1em 1em;
 }
 
 .entertainment_span {

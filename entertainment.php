@@ -23,8 +23,10 @@
   <div id="main_body">
 
     <div class="container">
-        <div class="entertainment">
-            <h1 class="dates">Games and Rides</h1>
+    <div class="entertainment">
+            <div id="games">
+                <h1 class="dates">Games and Rides</h1>
+            </div>
         </div>
         <!-- end entertainment div -->
     </div>
@@ -40,8 +42,10 @@
     </div>
 
     <div class="container">
-        <div class="entertainment">
-            <h1>Animals and Fun</h1>
+        <div class="entertainment2">
+            <div id="animals">
+                <h1 class="dates">Animals and Fun</h1>
+            </div>
         </div>
         <!-- end entertainment div -->
     </div>
