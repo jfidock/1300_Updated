@@ -13,7 +13,6 @@
     <!-- <link rel="stylesheet" type="text/css" href="styles/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="styles/site.css"> -->
     <link rel="stylesheet" type="text/css" href="styles/style.css">
-    <link rel="stylesheet" type="text/css" href="styles/mediaQuery.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
   </head>
   <body>  
@@ -23,15 +22,28 @@
   <div id="main_body">
 
     <div class="container">
-        <div class="information">
+      <div class="information">
 
-          <div id="map_info">
-            <p><span class="event_span"><img src="images/map.jpg" alt="Map of Apple Fest"></span></p>
-          <!-- Image from: http://www.downtownithaca.com/ithaca-events/Apple%20Harvest%20Festival%20Presented%20by%20Tompkins%20Trust -->
-          </div>
+        <h1>Information</h1>
+        For additional information, please contact:
 
-        </div>
-        <!-- end information div -->
+        <p>The Downtown Ithaca Alliance office is located in the upper atrium of Center Ithaca at 171 E. State St.</p>
+
+        <p>The Downtown Ithaca Alliance mailing address is:</p>
+        <p>171 E. State St. PMB #136</p>
+        <p>Center Ithaca</p>
+        <p>Ithaca, NY 14850 </p>
+        <p>USA</p>
+
+        <p>Phone: 607-277-8679</p>
+        <p>Fax: 607-277-8691</p>
+
+        <p>Email: info@downtownithaca.com</p>
+
+        <!-- APA citation for the contact information: Downtown Ithaca, "Contact Us", Downtown Ithaca website, www.downtownithaca.com, accessed December 2016. -->
+
+      </div>
+      <!-- end information div -->
     </div>
     <!-- end container div -->
 

@@ -32,7 +32,7 @@ html {background-color: #B5E9F8;
 	width: 100%;
 	padding: 1em 1em 1em 1em;
 	font-family: 'Noto Serif', serif;
-	margin: 0em 0em 0em 0em;
+	margin: 0em 0em 0em 0em; 
 	top: 0em;
 	left: 0em;
 }
@@ -51,7 +51,7 @@ html {background-color: #B5E9F8;
 	padding: 1em 1em 1em 1em;
 	background-color: #e6e6e6;
 	font-size: 1.1em;
-	margin: 0em 0em 0em 0em;
+	margin: 0em 0em 0em 0em; 
 }
 
 #navBar a:link {
@@ -71,30 +71,14 @@ html {background-color: #B5E9F8;
 	text-decoration: underline;
 }
 
-#navBar a.active {
-    background-color: #4CAF50;
-    color: white;
-}
-
-#navBar a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-}
-
-.about, .events, .information, .entertainment{
+.about, .events, .information, .entertainment {
 	background-color: #ffffff;
-	padding: 2em 4em 0.1em 4em;
-	font-size: 120%;
-}
-
-.entertainment2 {
-	background-color: #ffffff;
-	padding: 0em 4em 0em 4em;
+	padding: 2em 4em 2em 4em;
 	font-size: 120%;
 }
 
 .container {
-	padding: 5em 10em 1em 10em;
+	padding: 10em 10em 1em 10em;
 	font-size: 120%;
 	background-color: #B5E9F8;
 }
@@ -128,7 +112,7 @@ html {background-color: #B5E9F8;
 }
 
 .picspan {
-	background-color: #B5E9F8
+	background-color: #B5E9F8;
 	width: 100%;
 	margin: .5em .5em .5em .5em;
 }
@@ -144,7 +128,7 @@ html {background-color: #B5E9F8;
 }
 
 #map_info {
-	background-color: #B5E9F8
+	background-color: #B5E9F8;
 	width: 100%;
 	margin: .5em .5em .5em .5em;
 }
@@ -174,16 +158,8 @@ html {background-color: #B5E9F8;
 	padding-bottom: 1em;
 }
 
-#games,  {
-	padding: 0.1em 1em 0em 1em;
-}
-
-#animals {
-	padding: 0.1em 1em 0.1em 1em;
-}
-
 .entertainment_span {
-	background-color: #B5E9F8
+	background-color: #B5E9F8;
 	width: 100%;
 	margin: .5em .5em .5em .5em;
 }
@@ -196,11 +172,6 @@ html {background-color: #B5E9F8;
 /* end of image styling */
 
 
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-
-}
 
 
 

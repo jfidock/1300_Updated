@@ -27,10 +27,3 @@ Final Project
 
 </div>
 <!-- End of top div -->
-
-<ul>
-  <li><a href="index.php">Home</a></li>
-  <li><a href="events.php">Events</a></li>
-  <li><a class="active" href="#">Entertainment</a></li>
-  <li><a href="information.php">Information</a></li>
-</ul>

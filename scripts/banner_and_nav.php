@@ -15,7 +15,6 @@ Final Project
 	<!-- End of banner div -->
 
 	<div id="navBar">
-		<!-- <span class="navSpan"><a href="#">Home</a></span> -->
 		<span class="navSpan"><a href="#">Home</a></span>
 		<span class="navSpan"><a href="events.php">Events</a></span>
 		<span class="navSpan"><a href="entertainment.php">Entertainment</a></span>
@@ -28,10 +27,3 @@ Final Project
 
 </div>
 <!-- End of top div -->
-
-<ul>
-  <li><a class="active" href="#">Home</a></li>
-  <li><a href="events.php">Events</a></li>
-  <li><a href="entertainment.php">Entertainment</a></li>
-  <li><a href="information.php">Information</a></li>
-</ul>

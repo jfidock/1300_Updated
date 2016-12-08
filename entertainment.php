@@ -13,20 +13,18 @@
     <!-- <link rel="stylesheet" type="text/css" href="styles/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="styles/site.css"> -->
     <link rel="stylesheet" type="text/css" href="styles/style.css">
-    <link rel="stylesheet" type="text/css" href="styles/mediaQuery.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
   </head>
   <body>  
+
   <!-- call php file to read csv and update html with information -->
   <?php include 'scripts/entertainment_banner.php';?>
 
   <div id="main_body">
 
     <div class="container">
-    <div class="entertainment">
-            <div id="games">
-                <h1 class="dates">Games and Rides</h1>
-            </div>
+        <div class="entertainment">
+            <h1>Games and Rides</h1>
         </div>
         <!-- end entertainment div -->
     </div>
@@ -34,18 +32,19 @@
     
     <div id="family_images">
         <p><span class="entertainment_span"><img src="images/family2.jpg" alt="Family 2"></span></p>
-        <!-- Image citation: Andrew Halpner, Flikr, https://www.flickr.com/photos/106103661@N02/sets/72157657274645113/with/22015033122/-->
+        <!--APA Citation: "Andrew Halpner, "Apple Harvest Festival", Flikr website, www.flickr.com, accessed December 2016."  
+        Image link https://www.flickr.com/photos/106103661@N02/sets/72157657274645113/with/22015033122/-->
         <p><span class="entertainment_span"><img src="images/family5.jpg" alt="Family 5"></span></p>
-        <!-- Image citation: Andrew Halpner, Flikr, https://www.flickr.com/photos/106103661@N02/sets/72157657274645113/with/22015033122/-->
+        <!-- APA Citation: "Andrew Halpner, "Apple Harvest Festival", Flikr website, www.flickr.com, accessed December 2016."  
+        Image link https://www.flickr.com/photos/106103661@N02/sets/72157657274645113/with/22015033122/-->
         <p><span class="entertainment_span"><img src="images/family6.jpg" alt="Family 6"></span></p>
-        <!-- Image citation: Andrew Halpner, Flikr, https://www.flickr.com/photos/106103661@N02/sets/72157657274645113/with/22015033122/-->
+        <!-- IAPA Citation: "Andrew Halpner, "Apple Harvest Festival", Flikr website, www.flickr.com, accessed December 2016."  
+        Image link https://www.flickr.com/photos/106103661@N02/sets/72157657274645113/with/22015033122/-->
     </div>
 
     <div class="container">
-        <div class="entertainment2">
-            <div id="animals">
-                <h1 class="dates">Animals and Fun</h1>
-            </div>
+        <div class="entertainment">
+            <h1>Animals and Fun</h1>
         </div>
         <!-- end entertainment div -->
     </div>
@@ -54,11 +53,16 @@
 
     <div id="animal_images">
         <p><span class="entertainment_span"><img src="images/family1.jpg" alt="Family 1"></span></p>
-        <!-- Image citation: Andrew Halpner, Flikr, https://www.flickr.com/photos/106103661@N02/sets/72157657274645113/with/22015033122/-->
+        <!-- APA Citation: "Andrew Halpner, "Apple Harvest Festival", Flikr website, www.flickr.com, accessed December 2016."  
+        Image link https://www.flickr.com/photos/106103661@N02/sets/72157657274645113/with/22015033122/-->
         <p><span class="entertainment_span"><img src="images/family3.jpg" alt="Family 3"></span></p>
-        <!-- Image citation: Andrew Halpner, Flikr, https://www.flickr.com/photos/106103661@N02/sets/72157657274645113/with/22015033122/-->
+        <!-- APA Citation: "Andrew Halpner, "Apple Harvest Festival", Flikr website, www.flickr.com, accessed December 2016."  
+        Image link https://www.flickr.com/photos/106103661@N02/sets/72157657274645113/with/22015033122/-->
     </div>
+
+</div>
+<!-- end main body div -->
     
     
-  </body>
+</body>
 </html>
