@@ -7,7 +7,7 @@ Final Project Milestone 2
  <!-- Media Query -->
 */
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+@media screen and (min-width: 768px)  {
     
     #about > h1, p {
         font-size: 80%; 
@@ -17,10 +17,20 @@ Final Project Milestone 2
         display: none ;
     }
 */
+    .event_span img{
+        max-height: 100%;
+        max-width: 100%;
+    }
 
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px){
+    
+    html, body{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    
     #top {
         display: none;
     }
@@ -61,7 +71,7 @@ Final Project Milestone 2
         list-style-type: none;
         margin: 0;
         padding: 0;
-        width: 25%;
+        width: 20%;
         background-color: #f1f1f1;
         position: fixed;
         height: 100%;
@@ -71,6 +81,7 @@ Final Project Milestone 2
     li a {
         display: block;
         color: #000;
+        font-size: 85%;
         padding: 8px 16px;
         text-decoration: none;
     }
@@ -85,6 +96,30 @@ Final Project Milestone 2
         color: white;
     }
     
+    .picspan img{
+        max-height: 80%;
+        max-width: 80%;
+        margin: 0em 0em 0em 8em;
+    }
+    
+    .event_span  img{
+        max-height: 80%;
+        max-width: 100%;
+    }
+    
+    .entertainment_span img{
+        max-height: 60%;
+        max-width: 80%;
+        margin: 0em 0em 0em 8.5em;
+    }
+    
+    #animals > h1 {
+        font-size: 1em;
+    }
+    
+    table {
+        position: relative;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -111,7 +146,7 @@ Final Project Milestone 2
     }
     
     .container {
-	padding: 0em 0.5em 1em 12em;
+	padding: 0em 0.5em 1em 9em;
 	font-size: 85%;
 	background-color: #B5E9F8;
     }
@@ -119,7 +154,7 @@ Final Project Milestone 2
     .about, .events, .information, .entertainment {
 	background-color: #ffffff;
 	padding: 1em 2em 1em 3em;
-	font-size: 85%;
+	font-size: 70%;
     }
     
     ul {
@@ -136,6 +171,7 @@ Final Project Milestone 2
     li a {
         display: block;
         color: #000;
+        font-size: 60%;
         padding: 8px 16px;
         text-decoration: none;
     }
@@ -148,6 +184,31 @@ Final Project Milestone 2
     li a:hover:not(.active) {
         background-color: #555;
         color: white;
+    }
+    
+    .picspan img{
+        max-height: 80%;
+        max-width: 80%;
+        margin: 0em 0em 0em 5.5em;
+    }
+    
+    table {
+        object-position: center;
+    }
+    
+    .event_span img{
+        max-height: 60%;
+        max-width: 80%;
+    }
+    
+    .entertainment_span img{
+        max-height: 50%;
+        max-width: 75%;
+        margin: 0em 0em 0em 6em;
+    }
+    
+    #animals > h1 {
+        font-size: 0.5em;
     }
     
     html, body{
